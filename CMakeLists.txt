@@ -50,7 +50,7 @@ OPTION(ALSOFT_TESTS     "Build and install test programs"     OFF)
 OPTION(ALSOFT_CONFIG "Install alsoft.conf sample configuration file" OFF)
 OPTION(ALSOFT_HRTF_DEFS "Install HRTF definition files" OFF)
 OPTION(ALSOFT_AMBDEC_PRESETS "Install AmbDec preset files" OFF)
-OPTION(ALSOFT_INSTALL "Install headers and libraries" OFF)
+OPTION(ALSOFT_INSTALL "Install headers and libraries" ON)
 
 if(DEFINED SHARE_INSTALL_DIR)
     message(WARNING "SHARE_INSTALL_DIR is deprecated.  Use the variables provided by the GNUInstallDirs module instead")
